@@ -1,5 +1,5 @@
 period,basis,revenue_bn_krw,operating_profit_bn_krw,net_income_bn_krw,revenue_yoy_pct,op_yoy_pct,ni_yoy_pct,solid_sic_mix_pct,source_id,status
-2025,standalone,301.334,83.887,,,,,T01,reported actual reproduced from filing; DART note/page verification pending
-2026Q1,standalone,95.391,22.377,25.100,,,,T07,preliminary standalone; report source of record at DART
-2026Q2,standalone,94.873,26.850,23.651,30.55,37.68,47.94,,T07,preliminary standalone; report source of record at DART
-2026H1,standalone,190.264,49.227,48.751,25.97,28.92,37.34,90,T06,YoY values and mix from secondary summary; exact report segment table to verify
+2025,standalone,301.334,83.887,,,,,T01,T07,secondary DART-reproduced series; official filing page/line reconciliation pending
+2026Q1,standalone,95.391,22.377,25.100,,,,T07,preliminary standalone; report source of record at DART,secondary financial series; reconcile exact account values to original DART filing
+2026Q2,standalone,94.873,26.850,23.651,30.55,37.68,47.94,,T07,secondary financial series; reconcile exact account values to original DART filing
+2026H1,standalone,190.264,49.227,48.751,25.97,28.92,37.34,90,T06,secondary YoY and mix summary; exact DART interim account/segment table reconciliation pending
