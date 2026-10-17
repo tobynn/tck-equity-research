@@ -1,4 +1,4 @@
 scenario,revenue_growth_y1,revenue_growth_y2_y5,normalized_ebit_margin,normalized_roic,wacc,terminal_growth,ev_proxy_krw_bn,status
-bear,0.04,0.03,0.25,0.14,0.11,0.015,558.0,ROIC reinvestment-identity DCF proxy; analyst ROIC and bridge inputs pending DART extraction
-base,0.12,0.09,0.3,0.18,0.1,0.02,924.4,ROIC reinvestment-identity DCF proxy; analyst ROIC and bridge inputs pending DART extraction
-bull,0.2,0.15,0.33,0.2,0.095,0.025,1384.7,ROIC reinvestment-identity DCF proxy; analyst ROIC and bridge inputs pending DART extraction
+bear,0.04,0.03,0.25,0.14,0.11,0.015,558.0,exploratory EV proxy from assumptions.csv; not fair value; analyst ROIC/WACC and audited FCFF/equity bridge inputs pending
+base,0.12,0.09,0.3,0.18,0.1,0.02,924.4,exploratory EV proxy from assumptions.csv; not fair value; analyst ROIC/WACC and audited FCFF/equity bridge inputs pending
+bull,0.2,0.15,0.33,0.2,0.095,0.025,1384.7,exploratory EV proxy from assumptions.csv; not fair value; analyst ROIC/WACC and audited FCFF/equity bridge inputs pending
