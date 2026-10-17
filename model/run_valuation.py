@@ -30,7 +30,7 @@ for name, p in scenarios.items():
     out.append({"scenario": name, "revenue_growth_y1": p["g1"], "revenue_growth_y2_y5": p["g"], "normalized_ebit_margin": p["margin"],
                 "normalized_roic": p["roic"], "wacc": p["wacc"], "terminal_growth": p["tg"], "ev_proxy_krw_bn": round(ev, 1),
                 "status": "ROIC reinvestment-identity DCF proxy; analyst ROIC and bridge inputs pending DART extraction"})
-with (ROOT / "dcf_sensitivity.csv").open("w", newline="", encoding="utf-8-sig") as f:
+with (ROOT / "ev_sensitivity_proxy.csv").open("w", newline="", encoding="utf-8-sig") as f:
     w = csv.DictWriter(f, fieldnames=out[0].keys()); w.writeheader(); w.writerows(out)
 for r in out:
     print(f"{r['scenario']}: EV proxy KRW {r['ev_proxy_krw_bn']:,.1f}bn")
