@@ -1,0 +1,9 @@
+driver,bear,base,bull,unit,status,rationale
+revenue_growth_y1,0.04,0.12,0.20,fraction,analyst scenario,H1 growth 26% is not annualized; bear/base/bull recognize cycle uncertainty
+revenue_growth_y2_y5,0.03,0.09,0.15,fraction,analyst scenario,Installation base and consumable replacement; validate via customer/volume disclosures
+terminal_growth,0.015,0.020,0.025,fraction,analyst scenario,Nominal long-run guardrail below WACC
+WACC,0.110,0.100,0.095,fraction,analyst scenario,Recalibrate with market vintage and capital structure
+normalized_tax,0.24,0.24,0.24,fraction,placeholder,Replace with normalized cash tax
+EBIT_margin_y1_to_y5,0.25,0.30,0.33,fraction,analyst scenario,2025 actual OPM 27.8%; H1 recovery; avoid 2022 peak margin extrapolation
+normalized_ROIC,0.14,0.18,0.20,fraction,analyst scenario,Reinvestment identity input; replace with NOPAT / invested capital after extracting DART balance sheet
+solid_sic_mix,0.90,0.90,0.90,fraction,reported mix summary,2026 H1 reported mix approx 90%; diversification is not assumed
