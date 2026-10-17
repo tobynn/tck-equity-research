@@ -10,10 +10,10 @@
 
 | 지표 | 관측/해석 |
 |---|---|
-| FY2025 매출 | KRW 301.334bn, 별도 기준 공시 재무수치 재인용 |
+| FY2025 매출 | KRW 301.334bn, 별도 기준 2차 DART 재현 데이터; 공식 보고서 원문 페이지/계정 대조 대기 |
 | FY2025 영업이익 | KRW 83.887bn; 계산 OPM 27.8% |
 | 2026 H1 변화 | 매출 +26.0%, OP +28.9%, NI +37.3% YoY; 별도 기준 집계, exact account values DART 반기보고서 대조 필요 |
-| 사업 mix | 반기 누적 Solid SiC 약 90%, Graphite 약 7%, 기타/Susceptor 약 3%라는 공시 기반 분류 요약; 부문 명칭/정확한 누적 금액을 DART 원문에서 재대조 |
+| 사업 mix | 반기 누적 Solid SiC 약 90%, Graphite 약 7%, 기타/Susceptor 약 3%라는 2차 분류 요약; 부문 명칭/정확한 누적 금액을 DART 원문에서 재대조 |
 | 핵심 제품 | 회사 공식 페이지: CVD SiC focus ring, showerhead 등 고순도 공정 부품 및 graphite parts |
 
 ## Value framework
