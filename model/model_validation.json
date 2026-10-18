@@ -1,6 +1,7 @@
 {
   "company": "티씨케이",
   "version": "2026-10-18",
+  "model_version": "2026-10-18/research-v3",
   "scenario_checks": [
     {
       "case": "Bear",
@@ -57,6 +58,452 @@
       "python": 116665.44968817438
     }
   ],
+  "boundary_checks": [
+    {
+      "input": "margin_drop",
+      "test": "zero stress equals selected DCF",
+      "difference": 0
+    },
+    {
+      "input": "extra_capex",
+      "test": "zero stress equals selected DCF",
+      "difference": 0
+    }
+  ],
   "formula_errors": 0,
+  "diagnostic_checks": [
+    {
+      "case": "Bear",
+      "metric": "terminal_reinvestment_2031",
+      "excel": 0.1520887001323534,
+      "python": 0.1520887001323534
+    },
+    {
+      "case": "Bear",
+      "metric": "terminal_reinvestment_2032",
+      "excel": 0.125,
+      "python": 0.125
+    },
+    {
+      "case": "Bear",
+      "metric": "fcff_step_2032",
+      "excel": 0.047426776997346876,
+      "python": 0.047426776997346876
+    },
+    {
+      "case": "Bear",
+      "metric": "roe_2031",
+      "excel": 0.11766904449436841,
+      "python": 0.11766904449436841
+    },
+    {
+      "case": "Bear",
+      "metric": "roe_2032",
+      "excel": 0.11,
+      "python": 0.11
+    },
+    {
+      "case": "Bear",
+      "metric": "cash_proxy_2031",
+      "excel": 552.833176708576,
+      "python": 552.833176708576
+    },
+    {
+      "case": "Bear",
+      "metric": "cash_book_share",
+      "excel": 0.6304799927074433,
+      "python": 0.6304799927074433
+    },
+    {
+      "case": "Bear",
+      "metric": "cash_split_terminal_roe",
+      "excel": 0.05640920061986732,
+      "python": 0.05640920061986732
+    },
+    {
+      "case": "Bear",
+      "metric": "rim_no_terminal_ri_price",
+      "excel": 55938.012742125895,
+      "python": 55938.012742125895
+    },
+    {
+      "case": "Bear",
+      "metric": "rim_cash_split_price",
+      "excel": 29271.95851589981,
+      "python": 29271.95851589981
+    },
+    {
+      "case": "Bear",
+      "metric": "dcf_no_excess_roic_price",
+      "excel": 88955.12358426314,
+      "python": 88955.12358426314
+    },
+    {
+      "case": "Bear",
+      "metric": "dcf_excess_roic_value",
+      "excel": 238.4110850910074,
+      "python": 238.41108509099584
+    },
+    {
+      "case": "Bear",
+      "metric": "required_terminal_fcff",
+      "excel": 360.64308251807034,
+      "python": 360.64308251807034
+    },
+    {
+      "case": "Bear",
+      "metric": "required_terminal_margin",
+      "excel": 1.267958910387368,
+      "python": 1.267958910387368
+    },
+    {
+      "case": "Bear",
+      "metric": "required_per_normal_margin",
+      "excel": 1.0340470024244617,
+      "python": 1.0340470024244617
+    },
+    {
+      "case": "Bear",
+      "metric": "dcf_margin_stress_price",
+      "excel": 84280.67429323196,
+      "python": 84280.67429323195
+    },
+    {
+      "case": "Bear",
+      "metric": "dcf_capex_stress_price",
+      "excel": 87518.40722566016,
+      "python": 87518.40722566015
+    },
+    {
+      "case": "Bear",
+      "metric": "explicit_value_per_share",
+      "excel": 22437.043371966287,
+      "python": 22437.043371966287
+    },
+    {
+      "case": "Bear",
+      "metric": "terminal_value_per_share",
+      "excel": 38384.18469965121,
+      "python": 38384.18469965121
+    },
+    {
+      "case": "Bear",
+      "metric": "netcash_per_share",
+      "excel": 28372.306597736635,
+      "python": 28372.306597736635
+    },
+    {
+      "case": "Bear",
+      "metric": "nonop_less_nci_per_share",
+      "excel": 0,
+      "python": 0
+    },
+    {
+      "case": "Bear",
+      "metric": "per_terminal_share",
+      "excel": 0.6501515473265791,
+      "python": 0.6501515473265791
+    },
+    {
+      "case": "Bear",
+      "metric": "fee_saving_margin_2027",
+      "excel": 0.016025641025641024,
+      "python": 0.016025641025641024
+    },
+    {
+      "case": "Bear",
+      "metric": "fee_delayed_dcf_price",
+      "excel": 88827.71179464812,
+      "python": 88827.7117946481
+    },
+    {
+      "case": "Base",
+      "metric": "terminal_reinvestment_2031",
+      "excel": 0.1109751536644983,
+      "python": 0.1109751536644983
+    },
+    {
+      "case": "Base",
+      "metric": "terminal_reinvestment_2032",
+      "excel": 0.14285714285714285,
+      "python": 0.14285714285714285
+    },
+    {
+      "case": "Base",
+      "metric": "fcff_step_2032",
+      "excel": -0.01657898776456146,
+      "python": -0.01657898776456146
+    },
+    {
+      "case": "Base",
+      "metric": "roe_2031",
+      "excel": 0.15402457673828426,
+      "python": 0.15402457673828426
+    },
+    {
+      "case": "Base",
+      "metric": "roe_2032",
+      "excel": 0.13,
+      "python": 0.13
+    },
+    {
+      "case": "Base",
+      "metric": "cash_proxy_2031",
+      "excel": 670.0249282058206,
+      "python": 670.0249282058207
+    },
+    {
+      "case": "Base",
+      "metric": "cash_book_share",
+      "excel": 0.6707383541300734,
+      "python": 0.6707383541300735
+    },
+    {
+      "case": "Base",
+      "metric": "cash_split_terminal_roe",
+      "excel": 0.059572472816342294,
+      "python": 0.05957247281634228
+    },
+    {
+      "case": "Base",
+      "metric": "rim_no_terminal_ri_price",
+      "excel": 68788.88764734764,
+      "python": 68788.88764734763
+    },
+    {
+      "case": "Base",
+      "metric": "rim_cash_split_price",
+      "excel": 39801.606413810674,
+      "python": 39801.60641381065
+    },
+    {
+      "case": "Base",
+      "metric": "dcf_no_excess_roic_price",
+      "excel": 134086.60670998791,
+      "python": 134086.60670998791
+    },
+    {
+      "case": "Base",
+      "metric": "dcf_excess_roic_value",
+      "excel": 5059.611886959319,
+      "python": 5059.611886959332
+    },
+    {
+      "case": "Base",
+      "metric": "required_terminal_fcff",
+      "excel": 251.70082767920937,
+      "python": 251.70082767920937
+    },
+    {
+      "case": "Base",
+      "metric": "required_terminal_margin",
+      "excel": 0.6907563805747203,
+      "python": 0.6907563805747203
+    },
+    {
+      "case": "Base",
+      "metric": "required_per_normal_margin",
+      "excel": 0.7456588492009669,
+      "python": 0.7456588492009668
+    },
+    {
+      "case": "Base",
+      "metric": "dcf_margin_stress_price",
+      "excel": 131605.31442891134,
+      "python": 131605.31442891134
+    },
+    {
+      "case": "Base",
+      "metric": "dcf_capex_stress_price",
+      "excel": 137544.3578473263,
+      "python": 137544.3578473263
+    },
+    {
+      "case": "Base",
+      "metric": "explicit_value_per_share",
+      "excel": 33667.36267293561,
+      "python": 33667.362672935604
+    },
+    {
+      "case": "Base",
+      "metric": "terminal_value_per_share",
+      "excel": 75894.17830438977,
+      "python": 75894.17830438977
+    },
+    {
+      "case": "Base",
+      "metric": "netcash_per_share",
+      "excel": 29584.677619621863,
+      "python": 29584.677619621863
+    },
+    {
+      "case": "Base",
+      "metric": "nonop_less_nci_per_share",
+      "excel": 0,
+      "python": 0
+    },
+    {
+      "case": "Base",
+      "metric": "per_terminal_share",
+      "excel": 0.7453167055481443,
+      "python": 0.7453167055481442
+    },
+    {
+      "case": "Base",
+      "metric": "fee_saving_margin_2027",
+      "excel": 0.014335204873969656,
+      "python": 0.014335204873969656
+    },
+    {
+      "case": "Base",
+      "metric": "fee_delayed_dcf_price",
+      "excel": 138775.4072284952,
+      "python": 138775.4072284952
+    },
+    {
+      "case": "Bull",
+      "metric": "terminal_reinvestment_2031",
+      "excel": 0.11045482441551514,
+      "python": 0.11045482441551514
+    },
+    {
+      "case": "Bull",
+      "metric": "terminal_reinvestment_2032",
+      "excel": 0.125,
+      "python": 0.125
+    },
+    {
+      "case": "Bull",
+      "metric": "fcff_step_2032",
+      "excel": 0.003321724963067485,
+      "python": 0.003321724963067485
+    },
+    {
+      "case": "Bull",
+      "metric": "roe_2031",
+      "excel": 0.1780415368578078,
+      "python": 0.1780415368578078
+    },
+    {
+      "case": "Bull",
+      "metric": "roe_2032",
+      "excel": 0.15,
+      "python": 0.15
+    },
+    {
+      "case": "Bull",
+      "metric": "cash_proxy_2031",
+      "excel": 718.2105343978196,
+      "python": 718.2105343978195
+    },
+    {
+      "case": "Bull",
+      "metric": "cash_book_share",
+      "excel": 0.6558493517073424,
+      "python": 0.6558493517073423
+    },
+    {
+      "case": "Bull",
+      "metric": "cash_split_terminal_roe",
+      "excel": 0.06801883103658221,
+      "python": 0.06801883103658221
+    },
+    {
+      "case": "Bull",
+      "metric": "rim_no_terminal_ri_price",
+      "excel": 78651.31126990911,
+      "python": 78651.31126990911
+    },
+    {
+      "case": "Bull",
+      "metric": "rim_cash_split_price",
+      "excel": 54336.57959484325,
+      "python": 54336.57959484325
+    },
+    {
+      "case": "Bull",
+      "metric": "dcf_no_excess_roic_price",
+      "excel": 166891.51808347544,
+      "python": 166891.51808347544
+    },
+    {
+      "case": "Bull",
+      "metric": "dcf_excess_roic_value",
+      "excel": 10521.341363000392,
+      "python": 10521.341363000423
+    },
+    {
+      "case": "Bull",
+      "metric": "required_terminal_fcff",
+      "excel": 222.049957102053,
+      "python": 222.049957102053
+    },
+    {
+      "case": "Bull",
+      "metric": "required_terminal_margin",
+      "excel": 0.5001154777659809,
+      "python": 0.5001154777659809
+    },
+    {
+      "case": "Bull",
+      "metric": "required_per_normal_margin",
+      "excel": 0.5796856103432861,
+      "python": 0.5796856103432861
+    },
+    {
+      "case": "Bull",
+      "metric": "dcf_margin_stress_price",
+      "excel": 167783.19096139004,
+      "python": 167783.19096139004
+    },
+    {
+      "case": "Bull",
+      "metric": "dcf_capex_stress_price",
+      "excel": 175393.27110906813,
+      "python": 175393.27110906813
+    },
+    {
+      "case": "Bull",
+      "metric": "explicit_value_per_share",
+      "excel": 40203.36828441628,
+      "python": 40203.36828441628
+    },
+    {
+      "case": "Bull",
+      "metric": "terminal_value_per_share",
+      "excel": 107641.4154830042,
+      "python": 107641.4154830042
+    },
+    {
+      "case": "Bull",
+      "metric": "netcash_per_share",
+      "excel": 29568.075679055375,
+      "python": 29568.075679055375
+    },
+    {
+      "case": "Bull",
+      "metric": "nonop_less_nci_per_share",
+      "excel": 0,
+      "python": 0
+    },
+    {
+      "case": "Bull",
+      "metric": "per_terminal_share",
+      "excel": 0.7963340122199593,
+      "python": 0.7963340122199593
+    },
+    {
+      "case": "Bull",
+      "metric": "fee_saving_margin_2027",
+      "excel": 0.013043478260869566,
+      "python": 0.013043478260869566
+    },
+    {
+      "case": "Bull",
+      "metric": "fee_delayed_dcf_price",
+      "excel": 177040.35487542814,
+      "python": 177040.35487542814
+    }
+  ],
   "rim_ddm_error": -1.1368683772161603e-13
 }
