@@ -1,0 +1,62 @@
+{
+  "company": "티씨케이",
+  "version": "2026-10-18",
+  "scenario_checks": [
+    {
+      "case": "Bear",
+      "metric": "dcf_price",
+      "excel": 89193.53466935415,
+      "python": 89193.53466935414
+    },
+    {
+      "case": "Bear",
+      "metric": "per_price",
+      "excel": 66759.17352108969,
+      "python": 66759.17352108969
+    },
+    {
+      "case": "Bear",
+      "metric": "rim_price",
+      "excel": 53662.394854305414,
+      "python": 53662.394854305414
+    },
+    {
+      "case": "Base",
+      "metric": "dcf_price",
+      "excel": 139146.21859694723,
+      "python": 139146.21859694723
+    },
+    {
+      "case": "Base",
+      "metric": "per_price",
+      "excel": 100545.8679444465,
+      "python": 100545.86794444652
+    },
+    {
+      "case": "Base",
+      "metric": "rim_price",
+      "excel": 84741.37451524666,
+      "python": 84741.37451524664
+    },
+    {
+      "case": "Bull",
+      "metric": "dcf_price",
+      "excel": 177412.85944647584,
+      "python": 177412.85944647584
+    },
+    {
+      "case": "Bull",
+      "metric": "per_price",
+      "excel": 135558.83242558478,
+      "python": 135558.83242558478
+    },
+    {
+      "case": "Bull",
+      "metric": "rim_price",
+      "excel": 116665.44968817438,
+      "python": 116665.44968817438
+    }
+  ],
+  "formula_errors": 0,
+  "rim_ddm_error": -1.1368683772161603e-13
+}
