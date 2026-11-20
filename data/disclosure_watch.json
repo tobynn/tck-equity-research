@@ -1,5 +1,15 @@
 {
   "company": "티씨케이",
   "stock_code": "064760",
-  "filings": []
+  "filings": [
+    {
+      "receipt_number": "20261112000558",
+      "receipt_date": "20261112",
+      "report_name": "분기보고서 (2026.09)",
+      "filer": "티씨케이",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112000558"
+    }
+  ],
+  "corp_code": "00245472",
+  "last_update_utc": "2026-11-20T05:37:39Z"
 }
